@@ -1,5 +1,5 @@
 # 使用するPythonのバージョンを指定
-FROM python:3.12
+FROM python:3.12-slim
 
 # コンテナ内の作業ディレクトリを設定
 WORKDIR /app
